@@ -1,6 +1,6 @@
 # Fluentd with elasticsearch and graylog 
 
-This project is a fork from https://github.com/digikin/fluentd-elastic-kibana and its indent to run Fluentd and Graylog
+This project is a fork from https://github.com/digikin/fluentd-elastic-kibana and its intent to run Fluentd and Graylog
 
 ## How to run?
 
@@ -12,7 +12,7 @@ This project is a fork from https://github.com/digikin/fluentd-elastic-kibana an
 Once logged in, click on `System` in the top nav. Next, click on `Inputs` from the left navigation bar. (Or, simply go to http://localhost:9000/system/inputs)
 Then, from the dropdown, choose `GELF UDP` and click on `Launch new input`, which should pop up a modal dialogue, Select the `Node` and fill the `Title`. Then, click `Save`.  
 ![alt text](.img/graylog2-input.png "Title")
-4. Make requests to receive some data with `curl localhost` or run `./test.sh` that will perform a request for second in loop.
+4. Make requests to receive some data with `curl localhost` or run `./test.sh` that will perform a request per second in loop.
 
 ## Files
 ### docker-compose.yaml
