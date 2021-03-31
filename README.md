@@ -1,4 +1,4 @@
-# Fluentd with elasticsearch and kibana 
+# Fluentd with elasticsearch and graylog 
 
 This project is a fork from https://github.com/digikin/fluentd-elastic-kibana and its indent to run Fluentd and Graylog
 
